@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Tamim's Blog"
+  navbar:
+    right:
+      - text: About
+        href: about.qmd
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/tamim-ahsan-826875166
+      - text: Website
+        href: https://tamim-ahsan.github.io/
+format:
+  html:
+    theme: superhero
+    css: styles.css
+
+editor: visual
+
