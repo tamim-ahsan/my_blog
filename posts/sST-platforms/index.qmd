@@ -1,0 +1,38 @@
+---
+title: "Sequencing-based Spatial Transcriptomic Platforms"
+author: "Tamim Ahsan"
+date: "2025-12-26"
+categories: [science, spatial_omics]
+---
+
+# Background
+
+Single-cell omics approaches have revolutionized the field of molecular and cellular biology by endowing us with the ability to capture **cellular heterogeneity**. Although these approaches can help identify biological process-associated cell-states, as well as cell-type-specific molecular patterns, they involve a **cell dissociation** step which causes the loss of **spatial information**.\
+\
+Delineating the **spatial context** of a cell-state or cell-type is essential for fully dissecting its role in health and disease. Therefore, a series of spatial omics technologies are now being developed.\
+\
+In 2026, I expect my PhD project to make substantial use of **spatial transcriptomics** datasets to elucidate the cell-type- and region-specific molecular alterations associated with stress in the brains of **psychiatric patients**. Therefore, I will need to improve my understanding of the data generation and analysis methods.\
+\
+Undoubtedly, one of the best ways to deepen one's knowledge is to write about the topic of interest as much as one can. With that in mind, I have decided to regularly post about **spatial transcriptomic technologies** and **data analysis methods**. I am starting this journey with a poster briefly showing examples of **sequencing-based** spatial transcriptomic (sST) approaches that adopt various **spatial indexing** strategies. My future blog posts will explore data analysis workflows step by step.
+
+# Poster on sequencing-based spatial transcriptomic technologies
+As the original poster is quite large (~3100x4500 pixels), it had to be downsized. If you have trouble viewing its contents, I have left a link to it in the next section, using which you can view and/or download the poster in full resolution.  
+
+![Poster on sST](poster_sst.jpg){width="1500," height="2120"}
+
+# Link to the poster
+
+Click [here](https://drive.google.com/file/d/1LYA-WAie5W-dWdq_srav3bgAfwxQeRDW/view?usp=sharing) to view and download the poster in full resolution.
+
+# Further readings
+
+## Benchmarking study
+
+-   [Systematic comparison of sequencing-based spatial transcriptomic methods](https://doi.org/10.1038/s41592-024-02325-3)
+
+## sST platforms/technologies
+
+-   [Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution](https://doi.org/10.1126/science.aaw1219)
+-   [Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2](https://doi.org/10.1038/s41587-020-0739-1)
+-   [Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays](https://doi.org/10.1016/j.cell.2022.04.003)
+-   [High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue](https://doi.org/10.1016/j.cell.2020.10.026)

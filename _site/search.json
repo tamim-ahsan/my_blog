@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Non-linear Thoughts",
     "section": "",
-    "text": "We are not alone\n\n\n\n\n\n\npoetry\n\n\nliterature\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nTamim Ahsan\n\n\n\n\n\n\n\n\n\n\n\n\nA dark, lonely night\n\n\n\n\n\n\npoetry\n\n\nliterature\n\n\n\n\n\n\n\n\n\nJun 1, 2025\n\n\nTamim Ahsan\n\n\n\n\n\n\nNo matching items"
+    "text": "Sequencing-based Spatial Transcriptomic Platforms\n\n\n\n\n\n\nscience\n\n\nspatial_omics\n\n\n\n\n\n\n\n\n\nDec 26, 2025\n\n\nTamim Ahsan\n\n\n\n\n\n\n\n\n\n\n\n\nWe are not alone\n\n\n\n\n\n\npoetry\n\n\nliterature\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nTamim Ahsan\n\n\n\n\n\n\n\n\n\n\n\n\nA dark, lonely night\n\n\n\n\n\n\npoetry\n\n\nliterature\n\n\n\n\n\n\n\n\n\nJun 1, 2025\n\n\nTamim Ahsan\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,26 @@
     "title": "We are not alone",
     "section": "",
     "text": "At a vantage point,\nat the top of a mountain,\nthough our views are often blocked\nby clouds or mists,\nwe never stand alone.\n\n\nOn our shoulders,\nand on our neck,\nthe touch and the breath of those who are gone\nalways declare their presence\nalthough we sometimes fail to feel.\n\n\nAnd in this valley of choices and chances,\nthe past screams and the future waves,\nwe must both scream and wave back.\n\n\n\nContext\nThis poem highlights the necessity to acknowledge the coexistence of our past memories and our future prospects.\nWe tend to define our lives in terms of the choices we make and the opportunities we get. Although we are obsessed with the idea of constant progress and the contemplation of what the future might offer, we often ignore the efforts and sufferings of our ancestors. By failing to acknowledge the roles of our forefathers in shaping both our present and future, we lose an essential part of our identity. Our existential crisis majorly arises from this negligence.\nI once read somewhere that sustainable development is simply the act of making progress without reducing the future generations’ chances of survival. \nThus, sustainability and harmony can never be achieved until we choose to become a continuation of yesterday which will smoothly flow into the landscape of tomorrow."
+  },
+  {
+    "objectID": "posts/sST-platforms/index.html",
+    "href": "posts/sST-platforms/index.html",
+    "title": "Sequencing-based Spatial Transcriptomic Platforms",
+    "section": "",
+    "text": "Single-cell omics approaches have revolutionized the field of molecular and cellular biology by endowing us with the ability to capture cellular heterogeneity. Although these approaches can help identify biological process-associated cell-states, as well as cell-type-specific molecular patterns, they involve a cell dissociation step which causes the loss of spatial information.\n\nDelineating the spatial context of a cell-state or cell-type is essential for fully dissecting its role in health and disease. Therefore, a series of spatial omics technologies are now being developed.\n\nIn 2026, I expect my PhD project to make substantial use of spatial transcriptomics datasets to elucidate the cell-type- and region-specific molecular alterations associated with stress in the brains of psychiatric patients. Therefore, I will need to improve my understanding of the data generation and analysis methods.\n\nUndoubtedly, one of the best ways to deepen one’s knowledge is to write about the topic of interest as much as one can. With that in mind, I have decided to regularly post about spatial transcriptomic technologies and data analysis methods. I am starting this journey with a poster briefly showing examples of sequencing-based spatial transcriptomic (sST) approaches that adopt various spatial indexing strategies. My future blog posts will explore data analysis workflows step by step."
+  },
+  {
+    "objectID": "posts/sST-platforms/index.html#benchmarking-study",
+    "href": "posts/sST-platforms/index.html#benchmarking-study",
+    "title": "Sequencing-based Spatial Transcriptomic Platforms",
+    "section": "Benchmarking study",
+    "text": "Benchmarking study\n\nSystematic comparison of sequencing-based spatial transcriptomic methods"
+  },
+  {
+    "objectID": "posts/sST-platforms/index.html#sst-platformstechnologies",
+    "href": "posts/sST-platforms/index.html#sst-platformstechnologies",
+    "title": "Sequencing-based Spatial Transcriptomic Platforms",
+    "section": "sST platforms/technologies",
+    "text": "sST platforms/technologies\n\nSlide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution\nHighly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2\nSpatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays\nHigh-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue"
   }
 ]
