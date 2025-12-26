@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tamim Ahsan">
+<meta name="dcterms.date" content="2025-12-27">
 
-<title>Non-linear Thoughts – Tamim’s Blog</title>
+<title>Lonely cage – Tamim’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e5e422b4ac9bdf3f63d9b48a8f08e2e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e5e422b4ac9bdf3f63d9b48a8f08e2e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Tamim’s Blog</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -170,193 +112,79 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Non-linear Thoughts</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Lonely cage</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">poetry</div>
+                <div class="quarto-category">haiku</div>
+                <div class="quarto-category">literature</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tamim Ahsan </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 27, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aGFpa3U=">haiku <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGl0ZXJhdHVyZQ==">literature <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cG9ldHJ5">poetry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c2NpZW5jZQ==">science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BhdGlhbF9vbWljcw==">spatial_omics <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cG9ldHJ5JTJDaGFpa3UlMkNsaXRlcmF0dXJl" data-listing-date-sort="1766754000000" data-listing-file-modified-sort="1766793339648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
-<div class="thumbnail">
-<p><a href="./posts/haiku-no-1/index.html" class="no-external"></a></p><a href="./posts/haiku-no-1/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/haiku-no-1/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/haiku-no-1/index.html" class="no-external">Lonely cage</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/haiku-no-1/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cG9ldHJ5'); return false;">
-poetry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('aGFpa3U='); return false;">
-haiku
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGl0ZXJhdHVyZQ=='); return false;">
-literature
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/haiku-no-1/index.html" class="no-external">In this lonely cage,<br>
+<section id="lonely-cage" class="level1">
+<h1>Lonely cage</h1>
+<section id="text" class="level2">
+<h2 class="anchored" data-anchor-id="text">Text</h2>
+<p>In this lonely cage,<br>
 there are diamonds and gold coins,<br>
-but not enough air.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/haiku-no-1/index.html" class="no-external">
-<div class="listing-date">
-Dec 27, 2025
-</div>
-<div class="listing-author">
-Tamim Ahsan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="c2NpZW5jZSUyQ3NwYXRpYWxfb21pY3M=" data-listing-date-sort="1766667600000" data-listing-file-modified-sort="1766717661308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
-<div class="thumbnail">
-<p><a href="./posts/sST-platforms/index.html" class="no-external"></a></p><a href="./posts/sST-platforms/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/sST-platforms/poster_sst.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/sST-platforms/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/sST-platforms/index.html" class="no-external">Sequencing-based Spatial Transcriptomic Platforms</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/sST-platforms/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('c2NpZW5jZQ=='); return false;">
-science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbF9vbWljcw=='); return false;">
-spatial_omics
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/sST-platforms/index.html" class="no-external">Single-cell omics approaches have revolutionized the field of molecular and cellular biology by endowing us with the ability to capture <strong>cellular heterogeneity</strong>. Although…<strong></strong><strong></strong><br><br><strong></strong><br><br><strong></strong><strong></strong><br><br><strong></strong><strong></strong><strong></strong><strong></strong></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/sST-platforms/index.html" class="no-external">
-<div class="listing-date">
-Dec 26, 2025
-</div>
-<div class="listing-author">
-Tamim Ahsan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cG9ldHJ5JTJDbGl0ZXJhdHVyZQ==" data-listing-date-sort="1753538400000" data-listing-file-modified-sort="1753577158254" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
-<div class="thumbnail">
-<p><a href="./posts/we-are-not-alone/index.html" class="no-external"></a></p><a href="./posts/we-are-not-alone/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/we-are-not-alone/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/we-are-not-alone/index.html" class="no-external">We are not alone</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/we-are-not-alone/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cG9ldHJ5'); return false;">
-poetry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGl0ZXJhdHVyZQ=='); return false;">
-literature
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/we-are-not-alone/index.html" class="no-external">At a vantage point,</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/we-are-not-alone/index.html" class="no-external">
-<div class="listing-date">
-Jul 27, 2025
-</div>
-<div class="listing-author">
-Tamim Ahsan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="cG9ldHJ5JTJDbGl0ZXJhdHVyZQ==" data-listing-date-sort="1748700000000" data-listing-file-modified-sort="1748768646271" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<div class="thumbnail">
-<p><a href="./posts/dark-lonely-night/index.html" class="no-external"></a></p><a href="./posts/dark-lonely-night/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/dark-lonely-night/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/dark-lonely-night/index.html" class="no-external">A dark, lonely night</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/dark-lonely-night/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cG9ldHJ5'); return false;">
-poetry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGl0ZXJhdHVyZQ=='); return false;">
-literature
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/dark-lonely-night/index.html" class="no-external">In the stillness of this cold night,</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/dark-lonely-night/index.html" class="no-external">
-<div class="listing-date">
-Jun 1, 2025
-</div>
-<div class="listing-author">
-Tamim Ahsan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+but not enough air.</p>
+</section>
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<section id="the-first-line" class="level3">
+<h3 class="anchored" data-anchor-id="the-first-line">The first line</h3>
+<p><strong><em>“In this lonely cage”</em></strong><br>
+Within any capitalist society, the majority of human interactions are transactional in nature. Climbing up the “career ladder” takes precedence over holding the hands of a fellow human being with nothing but affection. As a result, we all become increasingly lonely and isolated despite building large, professional networks. This feeling of loneliness and separation breeds paranoia and anxiety, that surround us like a cage. There is no escape from this entrapment.</p>
+</section>
+<section id="the-second-line" class="level3">
+<h3 class="anchored" data-anchor-id="the-second-line">The second line</h3>
+<p><strong><em>“there are diamonds and gold coins”</em></strong><br>
+Unchecked capitalism rapidly creates income inequality, which leads to widening wealth gap. However, for those who are members of the “bourgeoisie”, it offers wealth (diamonds) and investment opportunities (gold coins). We are told that there are plenty of resources for all hardworking individuals to become rich. Believing this myth, we willingly choose to call “the cage” our home.</p>
+</section>
+<section id="the-third-line" class="level3">
+<h3 class="anchored" data-anchor-id="the-third-line">The third line</h3>
+<p><strong><em>“but not enough air”</em></strong><br>
+“The cage”, although full of glittering wealth, lacks the basic elements (air) we need to survive. So, the competition for survival becomes intense. Those with power and money easily crush any newcomers, making it difficult for anyone to “make it big” only through diligence and hard work. That is why, the top tier of our hierarchical society is largely populated by those who inherit substantial amount of properties, while the rest of us are being crushed under the weight of mounting living costs.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
